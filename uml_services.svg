@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="510" height="622" preserveAspectRatio="xMinYMin meet" viewBox="0 0 510 622" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="510" height="622"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-622)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="510" height="622" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="430" width="238" height="192" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="597" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="86.9075" y="605" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1210) scale(1,-1)">AuthService</text>
+			<text x="8" y="582" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1164) scale(1,-1)">- store: DataStore</text>
+			<text x="8" y="569" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1138) scale(1,-1)">- clock: Clock</text>
+			<text x="8" y="556" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1112) scale(1,-1)">- policy: AuthPolicy</text>
+			<path d="M 0,542 L 238,542 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="527" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1054) scale(1,-1)">+ login(email: String,</text>
+			<text x="8" y="514" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1028) scale(1,-1)">    password: String): Result&lt;SessionView&gt;</text>
+			<text x="8" y="501" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1002) scale(1,-1)">+ authorize(sessionToken: String,</text>
+			<text x="8" y="488" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,976) scale(1,-1)">    action: Action): Result&lt;ActorContext&gt;</text>
+			<rect x="272" y="430" width="238" height="192" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="597" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="351.2625" y="605" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1210) scale(1,-1)">CatalogService</text>
+			<text x="280" y="582" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1164) scale(1,-1)">- store: DataStore</text>
+			<text x="280" y="569" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1138) scale(1,-1)">- clock: Clock</text>
+			<path d="M 272,555 L 510,555 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="540" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1080) scale(1,-1)">+ search(filter: CatalogFilter):</text>
+			<text x="280" y="527" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1054) scale(1,-1)">    List&lt;ShowtimeView&gt;</text>
+			<text x="280" y="514" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1028) scale(1,-1)">+ seatMap(showtimeId: UUID):</text>
+			<text x="280" y="501" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1002) scale(1,-1)">    Result&lt;List&lt;SeatView&gt;&gt;</text>
+			<rect x="0" y="226" width="238" height="192" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="393" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="77.431" y="401" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,802) scale(1,-1)">BookingService</text>
+			<text x="8" y="378" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,756) scale(1,-1)">- store: DataStore</text>
+			<text x="8" y="365" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,730) scale(1,-1)">- clock: Clock</text>
+			<path d="M 0,351 L 238,351 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="336" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,672) scale(1,-1)">+ createHold(actor: ActorContext,</text>
+			<text x="8" y="323" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,646) scale(1,-1)">    request: HoldRequest, key: UUID):</text>
+			<text x="8" y="310" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,620) scale(1,-1)">    Result&lt;BookingView&gt;</text>
+			<text x="8" y="297" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,594) scale(1,-1)">+ expireHolds(now: Instant,</text>
+			<text x="8" y="284" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,568) scale(1,-1)">    limit: UInt): UInt</text>
+			<rect x="272" y="226" width="238" height="192" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="393" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="348.507" y="401" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,802) scale(1,-1)">PaymentService</text>
+			<text x="280" y="378" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,756) scale(1,-1)">- store: DataStore</text>
+			<text x="280" y="365" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,730) scale(1,-1)">- provider: PaymentProvider</text>
+			<text x="280" y="352" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,704) scale(1,-1)">- clock: Clock</text>
+			<path d="M 272,338 L 510,338 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="323" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,646) scale(1,-1)">+ handleProviderEvent(event: ProviderEvent,</text>
+			<text x="280" y="310" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,620) scale(1,-1)">    signature: String): Result&lt;Void&gt;</text>
+			<text x="280" y="297" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,594) scale(1,-1)">+ processRefund(refundId: UUID):</text>
+			<text x="280" y="284" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,568) scale(1,-1)">    Result&lt;RefundView&gt;</text>
+			<rect x="0" y="22" width="238" height="192" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="189" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="83.536" y="197" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,394) scale(1,-1)">TicketService</text>
+			<text x="8" y="174" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,348) scale(1,-1)">- store: DataStore</text>
+			<text x="8" y="161" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,322) scale(1,-1)">- crypto: TokenProtector</text>
+			<text x="8" y="148" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,296) scale(1,-1)">- clock: Clock</text>
+			<path d="M 0,134 L 238,134 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="119" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,238) scale(1,-1)">+ issue(bookingId: UUID): List&lt;Ticket&gt;</text>
+			<text x="8" y="106" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,212) scale(1,-1)">+ validate(actor: ActorContext,</text>
+			<text x="8" y="93" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,186) scale(1,-1)">    qrToken: String, attemptId: UUID):</text>
+			<text x="8" y="80" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,160) scale(1,-1)">    Result&lt;AdmissionDecision&gt;</text>
+			<rect x="272" y="22" width="238" height="192" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="189" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="342.3965" y="197" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,394) scale(1,-1)">OperationsService</text>
+			<text x="280" y="174" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,348) scale(1,-1)">- store: DataStore</text>
+			<text x="280" y="161" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,322) scale(1,-1)">- email: EmailProvider</text>
+			<text x="280" y="148" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,296) scale(1,-1)">- clock: Clock</text>
+			<path d="M 272,134 L 510,134 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="119" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,238) scale(1,-1)">+ cancelShow(actor: ActorContext,</text>
+			<text x="280" y="106" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,212) scale(1,-1)">    showtimeId: UUID, reason: String,</text>
+			<text x="280" y="93" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,186) scale(1,-1)">    key: UUID):</text>
+			<text x="280" y="80" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,160) scale(1,-1)">    Result&lt;CancellationSummary&gt;</text>
+			<text x="280" y="67" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,134) scale(1,-1)">+ processShowCancellation(</text>
+			<text x="280" y="54" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,108) scale(1,-1)">    showtimeId: UUID, limit: UInt): UInt</text>
+			<text x="0" y="4" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,8) scale(1,-1)">All services depend on DataStore and Clock. Complete interfaces: Section 6.7.</text>
+		</g>
+	</g>
+</svg>

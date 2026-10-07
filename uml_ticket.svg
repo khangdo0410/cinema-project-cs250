@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="510" height="598" preserveAspectRatio="xMinYMin meet" viewBox="0 0 510 598" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="510" height="598"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-598)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="510" height="598" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="414" width="238" height="184" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="573" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="103.105" y="581" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1162) scale(1,-1)">Ticket</text>
+			<text x="8" y="558" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1116) scale(1,-1)">- ticketId: UUID</text>
+			<text x="8" y="545" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1090) scale(1,-1)">- bookingId, seatId: UUID</text>
+			<text x="8" y="532" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1064) scale(1,-1)">- tokenHash: String</text>
+			<text x="8" y="519" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1038) scale(1,-1)">- encryptedToken: Bytes</text>
+			<text x="8" y="506" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1012) scale(1,-1)">- status: TicketStatus</text>
+			<text x="8" y="493" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,986) scale(1,-1)">- admittedAt: Instant?</text>
+			<path d="M 0,479 L 238,479 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="464" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,928) scale(1,-1)">+ admit(now: Instant): Bool</text>
+			<text x="8" y="451" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,902) scale(1,-1)">+ void(): Void</text>
+			<rect x="272" y="427" width="238" height="171" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="573" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="342.1105" y="581" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1162) scale(1,-1)">AdmissionAttempt</text>
+			<text x="280" y="558" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1116) scale(1,-1)">- attemptId: UUID</text>
+			<text x="280" y="545" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1090) scale(1,-1)">- ticketId: UUID?</text>
+			<text x="280" y="532" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1064) scale(1,-1)">- usherId: UUID</text>
+			<text x="280" y="519" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1038) scale(1,-1)">- scannedAt: Instant</text>
+			<text x="280" y="506" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1012) scale(1,-1)">- result: AdmissionResult</text>
+			<text x="280" y="493" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,986) scale(1,-1)">- tokenFingerprint: String</text>
+			<path d="M 272,479 L 510,479 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="464" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,928) scale(1,-1)">+ isAccepted(): Bool</text>
+			<rect x="0" y="154" width="238" height="184" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="313" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="88.75" y="321" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,642) scale(1,-1)">Notification</text>
+			<text x="8" y="298" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,596) scale(1,-1)">- notificationId: UUID</text>
+			<text x="8" y="285" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,570) scale(1,-1)">- bookingId, accountId: UUID?</text>
+			<text x="8" y="272" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,544) scale(1,-1)">- kind: NotificationKind</text>
+			<text x="8" y="259" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,518) scale(1,-1)">- dedupeKey: String</text>
+			<text x="8" y="246" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,492) scale(1,-1)">- status: NotificationStatus</text>
+			<text x="8" y="233" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,466) scale(1,-1)">- nextAttemptAt: Instant</text>
+			<path d="M 0,219 L 238,219 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="204" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,408) scale(1,-1)">+ markSent(now: Instant): Void</text>
+			<text x="8" y="191" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,382) scale(1,-1)">+ scheduleRetry(next: Instant): Void</text>
+			<rect x="272" y="115" width="238" height="223" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="313" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="361.971" y="321" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,642) scale(1,-1)">AuditEvent</text>
+			<text x="280" y="298" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,596) scale(1,-1)">- eventId, requestId: UUID</text>
+			<text x="280" y="285" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,570) scale(1,-1)">- actorId: UUID?</text>
+			<text x="280" y="272" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,544) scale(1,-1)">- action, entityType: String</text>
+			<text x="280" y="259" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,518) scale(1,-1)">- entityId: UUID?</text>
+			<text x="280" y="246" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,492) scale(1,-1)">- occurredAt: Instant</text>
+			<path d="M 272,232 L 510,232 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="217" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,434) scale(1,-1)">+ record(action: String, entityType: String,</text>
+			<text x="280" y="204" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,408) scale(1,-1)">    entityId: UUID?, actorId: UUID?,</text>
+			<text x="280" y="191" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,382) scale(1,-1)">    requestId: UUID,</text>
+			<text x="280" y="178" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,356) scale(1,-1)">    details: Map&lt;String,String&gt;,</text>
+			<text x="280" y="165" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,330) scale(1,-1)">    now: Instant): AuditEvent</text>
+			<polyline points="238 493, 272 493" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="242" y="478" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,956) scale(1,-1)">0..1</text>
+			<text x="255.6918" y="499" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,998) scale(1,-1)">0..*</text>
+			<text x="0" y="379" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,758) scale(1,-1)">A ticket has many scan attempts; only one may be ACCEPTED.</text>
+			<text x="0" y="82" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,164) scale(1,-1)">Cross-view associations:</text>
+			<text x="0" y="62" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,124) scale(1,-1)">Booking 0..1 -- 0..* Notification; Account 0..1 -- 0..* Notification</text>
+			<text x="0" y="42" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,84) scale(1,-1)">Account 1 -- 0..* AdmissionAttempt (usher)</text>
+			<text x="0" y="22" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,44) scale(1,-1)">Account 0..1 -- 0..* AuditEvent (actor)</text>
+			<text x="0" y="2" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,4) scale(1,-1)">AuditEvent.entityType/entityId identifies its affected business record.</text>
+		</g>
+	</g>
+</svg>

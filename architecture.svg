@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="510" height="600" preserveAspectRatio="xMinYMin meet" viewBox="0 0 510 600" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="510" height="600"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-600)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="510" height="600" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="40" y="523" width="430" height="72" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="40" y="570" width="430" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="192.3385" y="578" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1156) scale(1,-1)">Browser user interfaces</text>
+			<text x="48" y="555" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1110) scale(1,-1)">Customer site | Cashier console | Usher scan | Manager console</text>
+			<polyline points="255 523, 255 490" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="252 497, 255 490, 258 497" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="260" y="495" style="font-family: Helvetica; font-size: 8.4px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,990) scale(1,-1)">HTTPS requests and responses</text>
+			<rect x="40" y="421" width="430" height="69" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="40" y="465" width="430" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="161.4835" y="473" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,946) scale(1,-1)">Request handlers and authorization</text>
+			<text x="48" y="450" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,900) scale(1,-1)">Validate input | Check session and current role | Enforce ownership</text>
+			<polyline points="255 421, 255 393" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="252 400, 255 393, 258 400" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<rect x="0" y="229" width="510" height="160" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 0.7; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<text x="10" y="374" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,748) scale(1,-1)">One modular application server</text>
+			<rect x="7" y="310" width="154" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="7" y="339" width="154" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="51.9075" y="347" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,694) scale(1,-1)">AuthService</text>
+			<text x="15" y="324" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,648) scale(1,-1)">Accounts and sessions</text>
+			<rect x="178" y="310" width="154" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="178" y="339" width="154" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="215.2625" y="347" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,694) scale(1,-1)">CatalogService</text>
+			<text x="186" y="324" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,648) scale(1,-1)">Movies and showtimes</text>
+			<rect x="349" y="310" width="154" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="349" y="339" width="154" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="384.431" y="347" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,694) scale(1,-1)">BookingService</text>
+			<text x="357" y="324" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,648) scale(1,-1)">Holds and cancellations</text>
+			<rect x="7" y="246" width="154" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="7" y="275" width="154" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="41.507" y="283" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,566) scale(1,-1)">PaymentService</text>
+			<text x="15" y="260" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,520) scale(1,-1)">Charges and refunds</text>
+			<rect x="178" y="246" width="154" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="178" y="275" width="154" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="219.536" y="283" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,566) scale(1,-1)">TicketService</text>
+			<text x="186" y="260" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,520) scale(1,-1)">QR and admission</text>
+			<rect x="349" y="246" width="154" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="349" y="275" width="154" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="377.3965" y="283" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,566) scale(1,-1)">OperationsService</text>
+			<text x="357" y="260" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,520) scale(1,-1)">Shows, email and reports</text>
+			<polyline points="255 229, 255 186" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="252 193, 255 186, 258 193" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="260" y="191" style="font-family: Helvetica; font-size: 8.4px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,382) scale(1,-1)">Transactional reads and writes</text>
+			<rect x="40" y="91" width="430" height="95" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="40" y="161" width="430" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="166.362" y="169" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,338) scale(1,-1)">DataStore and relational database</text>
+			<text x="48" y="146" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,292) scale(1,-1)">D1 Catalog | D2 Bookings and tickets | D3 Finance and audit</text>
+			<text x="48" y="133" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,266) scale(1,-1)">Account/session tables | Unique keys | Row locks | Durable work</text>
+			<text x="48" y="120" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,240) scale(1,-1)">One authoritative inventory shared by online and box-office sales</text>
+			<rect x="0" y="9" width="240" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="38" width="240" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="74.7625" y="46" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,92) scale(1,-1)">PaymentProvider</text>
+			<text x="8" y="23" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,46) scale(1,-1)">Charge | Refund | Signed events | Status</text>
+			<rect x="270" y="9" width="240" height="54" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="270" y="38" width="240" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="353.0125" y="46" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,92) scale(1,-1)">EmailProvider</text>
+			<text x="278" y="23" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,46) scale(1,-1)">Confirmation and account email</text>
+			<polyline points="7 271, 0 271, 0 76, 120 76, 120 63" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="117 70, 120 63, 123 70" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="120 63, 120 76, 0 76, 0 271, 7 271" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="0 268, 7 271, 0 274" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="497 271, 510 271, 510 76, 390 76, 390 63" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polyline points="387 70, 390 63, 393 70" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="8" y="213" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,426) scale(1,-1)">Workers: expiry and reconciliation;</text>
+			<text x="8" y="199" style="font-family: Helvetica; font-size: 8.7px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,398) scale(1,-1)">show cancellation and email retry.</text>
+		</g>
+	</g>
+</svg>

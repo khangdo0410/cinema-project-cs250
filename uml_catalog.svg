@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="510" height="600" preserveAspectRatio="xMinYMin meet" viewBox="0 0 510 600" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="510" height="600"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-600)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="510" height="600" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="442" width="238" height="158" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="575" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="103.413" y="583" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1166) scale(1,-1)">Movie</text>
+			<text x="8" y="560" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1120) scale(1,-1)">- movieId: UUID</text>
+			<text x="8" y="547" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1094) scale(1,-1)">- title: String</text>
+			<text x="8" y="534" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1068) scale(1,-1)">- runtimeMinutes: UInt</text>
+			<text x="8" y="521" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1042) scale(1,-1)">- archived: Bool</text>
+			<path d="M 0,507 L 238,507 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="492" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,984) scale(1,-1)">+ update(details: MovieInput): Void</text>
+			<text x="8" y="479" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,958) scale(1,-1)">+ archive(): Void</text>
+			<rect x="272" y="429" width="238" height="171" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="575" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="369.0" y="583" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1166) scale(1,-1)">Account</text>
+			<text x="280" y="560" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1120) scale(1,-1)">- accountId: UUID</text>
+			<text x="280" y="547" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1094) scale(1,-1)">- email: String</text>
+			<text x="280" y="534" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1068) scale(1,-1)">- passwordHash: String</text>
+			<text x="280" y="521" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1042) scale(1,-1)">- roles: Set&lt;Role&gt;</text>
+			<text x="280" y="508" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1016) scale(1,-1)">- status: AccountStatus</text>
+			<path d="M 272,494 L 510,494 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="479" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,958) scale(1,-1)">+ hasRole(role: Role): Bool</text>
+			<text x="280" y="466" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,932) scale(1,-1)">+ isLoginAllowed(now: Instant): Bool</text>
+			<rect x="0" y="184" width="238" height="184" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="343" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="93.0235" y="351" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,702) scale(1,-1)">Showtime</text>
+			<text x="8" y="328" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,656) scale(1,-1)">- showtimeId: UUID</text>
+			<text x="8" y="315" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,630) scale(1,-1)">- movieId, auditoriumId: UUID</text>
+			<text x="8" y="302" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,604) scale(1,-1)">- startsAt, endsAt: Instant</text>
+			<text x="8" y="289" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,578) scale(1,-1)">- status: ShowtimeStatus</text>
+			<text x="8" y="276" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,552) scale(1,-1)">- pricing: PricePolicy</text>
+			<path d="M 0,262 L 238,262 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="247" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,494) scale(1,-1)">+ isBookable(now: Instant): Bool</text>
+			<text x="8" y="234" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,468) scale(1,-1)">+ admissionWindow(): TimeRange</text>
+			<text x="8" y="221" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,442) scale(1,-1)">+ quote(seatCount: UInt): PriceQuote</text>
+			<rect x="272" y="184" width="238" height="184" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="343" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="361.6685" y="351" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,702) scale(1,-1)">Auditorium</text>
+			<text x="280" y="328" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,656) scale(1,-1)">- auditoriumId: UUID</text>
+			<text x="280" y="315" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,630) scale(1,-1)">- name: String</text>
+			<text x="280" y="302" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,604) scale(1,-1)">- layoutVersion: UInt</text>
+			<path d="M 272,288 L 510,288 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="273" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,546) scale(1,-1)">+ validateLayout(</text>
+			<text x="280" y="260" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,520) scale(1,-1)">    seats: List&lt;SeatInput&gt;): Bool</text>
+			<text x="280" y="247" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,494) scale(1,-1)">+ canSchedule(start: Instant,</text>
+			<text x="280" y="234" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,468) scale(1,-1)">    end: Instant,</text>
+			<text x="280" y="221" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,442) scale(1,-1)">    existing: List&lt;TimeRange&gt;): Bool</text>
+			<rect x="272" y="1" width="238" height="132" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="108" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="379.384" y="116" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,232) scale(1,-1)">Seat</text>
+			<text x="280" y="93" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,186) scale(1,-1)">- seatId, auditoriumId: UUID</text>
+			<text x="280" y="80" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,160) scale(1,-1)">- label: String</text>
+			<text x="280" y="67" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,134) scale(1,-1)">- accessible: Bool</text>
+			<path d="M 272,53 L 510,53 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="38" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,76) scale(1,-1)">+ displayLabel(): String</text>
+			<text x="280" y="25" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,50) scale(1,-1)">+ setAccessibility(accessible: Bool): Void</text>
+			<polyline points="105 442, 105 368" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="109" y="428" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,856) scale(1,-1)">1</text>
+			<text x="110" y="374" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,748) scale(1,-1)">0..*</text>
+			<polyline points="272 276, 238 276" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="262.4408" y="261" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,522) scale(1,-1)">1</text>
+			<text x="243" y="282" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,564) scale(1,-1)">0..*</text>
+			<polyline points="386 184, 386 133" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polygon points="386 184, 383 179, 386 174, 389 179" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,19%,24%); fill-rule: evenodd;"/>
+			<text x="390" y="170" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,340) scale(1,-1)">1</text>
+			<text x="391" y="139" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,278) scale(1,-1)">1..*</text>
+			<text x="0" y="112" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,224) scale(1,-1)">Cross-view links to UML 2:</text>
+			<text x="0" y="92" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,184) scale(1,-1)">Account 0..1 -- 0..* Booking (customer)</text>
+			<text x="0" y="72" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,144) scale(1,-1)">Showtime 1 -- 0..* Booking</text>
+			<text x="0" y="52" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,104) scale(1,-1)">Showtime 1 owns 1..* ShowtimeSeat</text>
+			<text x="0" y="32" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,64) scale(1,-1)">Seat 1 -- 0..* ShowtimeSeat</text>
+			<text x="0" y="12" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,24) scale(1,-1)">Full fields and operation contracts: Section 6.6.</text>
+		</g>
+	</g>
+</svg>

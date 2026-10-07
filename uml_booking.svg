@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="510" height="606" preserveAspectRatio="xMinYMin meet" viewBox="0 0 510 606" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="510" height="606"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-606)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="510" height="606" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="422" width="238" height="184" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="581" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="97.0" y="589" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1178) scale(1,-1)">Booking</text>
+			<text x="8" y="566" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1132) scale(1,-1)">- bookingId, showtimeId: UUID</text>
+			<text x="8" y="553" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1106) scale(1,-1)">- customerId: UUID?</text>
+			<text x="8" y="540" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1080) scale(1,-1)">- status: BookingStatus</text>
+			<text x="8" y="527" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1054) scale(1,-1)">- expiresAt: Instant</text>
+			<text x="8" y="514" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1028) scale(1,-1)">- quote: PriceQuote</text>
+			<path d="M 0,500 L 238,500 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="485" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,970) scale(1,-1)">+ isExpired(now: Instant): Bool</text>
+			<text x="8" y="472" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,944) scale(1,-1)">+ canCancel(now: Instant, start: Instant,</text>
+			<text x="8" y="459" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,918) scale(1,-1)">    allUnused: Bool): Bool</text>
+			<rect x="272" y="435" width="238" height="171" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="581" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="353.4075" y="589" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1178) scale(1,-1)">ShowtimeSeat</text>
+			<text x="280" y="566" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1132) scale(1,-1)">- showtimeId, seatId: UUID</text>
+			<text x="280" y="553" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1106) scale(1,-1)">- ownerBookingId: UUID?</text>
+			<text x="280" y="540" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1080) scale(1,-1)">- status: SeatState</text>
+			<text x="280" y="527" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1054) scale(1,-1)">- version: UInt</text>
+			<path d="M 272,513 L 510,513 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="498" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,996) scale(1,-1)">+ claim(bookingId: UUID): Void</text>
+			<text x="280" y="485" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,970) scale(1,-1)">+ sell(bookingId: UUID): Void</text>
+			<text x="280" y="472" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,944) scale(1,-1)">+ release(bookingId: UUID): Bool</text>
+			<rect x="0" y="217" width="238" height="145" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="337" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="85.384" y="345" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,690) scale(1,-1)">BookingSeat</text>
+			<text x="8" y="322" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,644) scale(1,-1)">- bookingId, seatId: UUID</text>
+			<text x="8" y="309" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,618) scale(1,-1)">- seatLabelSnapshot: String</text>
+			<text x="8" y="296" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,592) scale(1,-1)">- seatPriceCents: Int64</text>
+			<text x="8" y="283" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,566) scale(1,-1)">- feeShareCents, taxShareCents: Int64</text>
+			<path d="M 0,269 L 238,269 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="8" y="254" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,508) scale(1,-1)">+ lineTotalCents(): Int64</text>
+			<rect x="272" y="178" width="238" height="184" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="337" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="368.076" y="345" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,690) scale(1,-1)">Payment</text>
+			<text x="280" y="322" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,644) scale(1,-1)">- paymentId, bookingId: UUID</text>
+			<text x="280" y="309" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,618) scale(1,-1)">- amountCents: Int64</text>
+			<text x="280" y="296" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,592) scale(1,-1)">- method: PaymentMethod</text>
+			<text x="280" y="283" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,566) scale(1,-1)">- status: PaymentStatus</text>
+			<path d="M 272,269 L 510,269 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="254" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,508) scale(1,-1)">+ matches(quote: PriceQuote): Bool</text>
+			<text x="280" y="241" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,482) scale(1,-1)">+ applyVerified(result: ProviderResult,</text>
+			<text x="280" y="228" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,456) scale(1,-1)">    now: Instant): Void</text>
+			<text x="280" y="215" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,430) scale(1,-1)">+ markUnknown(now: Instant): Void</text>
+			<rect x="272" y="4" width="238" height="119" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="272" y="98" width="238" height="25" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,95%); fill-rule: evenodd;"/>
+			<text x="372.058" y="106" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,212) scale(1,-1)">Refund</text>
+			<text x="280" y="83" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,166) scale(1,-1)">- refundId, paymentId: UUID</text>
+			<text x="280" y="70" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,140) scale(1,-1)">- amountCents: Int64</text>
+			<text x="280" y="57" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,114) scale(1,-1)">- status: RefundStatus</text>
+			<path d="M 272,43 L 510,43 Z" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 0.65;"/>
+			<text x="280" y="28" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,56) scale(1,-1)">+ recordCashPaid(cashierId: UUID,</text>
+			<text x="280" y="15" style="font-family: Helvetica; font-size: 9.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,30) scale(1,-1)">    now: Instant): Void</text>
+			<polyline points="108 422, 108 362" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<polygon points="108 422, 105 417, 108 412, 111 417" style="stroke: rgb(13%,19%,24%); stroke-linecap: butt; stroke-width: 1; fill: rgb(13%,19%,24%); fill-rule: evenodd;"/>
+			<text x="112" y="408" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,816) scale(1,-1)">1</text>
+			<text x="113" y="368" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,736) scale(1,-1)">1..8</text>
+			<polyline points="238 529, 255 529, 272 529" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="242" y="514" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1028) scale(1,-1)">0..1</text>
+			<text x="254.32240000000002" y="535" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,1070) scale(1,-1)">0..8</text>
+			<polyline points="170 422, 170 395, 388 395, 388 362" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="174" y="408" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,816) scale(1,-1)">1</text>
+			<text x="393" y="368" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,736) scale(1,-1)">0..1</text>
+			<polyline points="388 178, 388 123" style="stroke: rgb(34%,40%,45%); stroke-linecap: butt; stroke-width: 1; fill: None; fill-rule: evenodd;"/>
+			<text x="392" y="164" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,328) scale(1,-1)">1</text>
+			<text x="393" y="129" style="font-family: Helvetica; font-size: 8.2px;fill: rgb(13%,19%,24%); stroke:none;" transform="translate(0,258) scale(1,-1)">0..1</text>
+			<text x="0" y="151" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,302) scale(1,-1)">ShowtimeSeat stores current ownership.</text>
+			<text x="0" y="131" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,262) scale(1,-1)">BookingSeat preserves historical selection.</text>
+			<text x="0" y="111" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,222) scale(1,-1)">Unique Payment.bookingId: one attempt.</text>
+			<text x="0" y="91" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,182) scale(1,-1)">Unique Refund.paymentId: one refund.</text>
+			<text x="0" y="53" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,106) scale(1,-1)">To UML 3: BookingSeat 1 -- 0..1 Ticket</text>
+			<text x="0" y="32" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,64) scale(1,-1)">A confirmed booking has 1..8 tickets.</text>
+			<text x="0" y="10" style="font-family: Helvetica; font-size: 9px;fill: rgb(34%,40%,45%); stroke:none;" transform="translate(0,20) scale(1,-1)">Black diamond = composition; lines = associations.</text>
+		</g>
+	</g>
+</svg>
